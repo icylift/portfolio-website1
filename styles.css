@@ -15,7 +15,6 @@
   align-items: center;
   border-style: none;
   background-color: #10100f;
-
   padding: 30px 10%;
   height: 100px;
 
@@ -62,14 +61,15 @@
 
 .hero-div{
   display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
   border-style: solid;
   padding: 2%;
   height: 90vh;
   background-color: #b1b1b2;
 }
 
-.big-intro{
-  height: auto;
+.big-intro-div{
   padding: 3%;
   border-style: solid;
   font-size: 10vh;
@@ -77,15 +77,32 @@
   font-weight: 400;
   font-style: normal;
   letter-spacing: 2px;
+  grid-row: 1 / 5;
+  grid-column: 1 / 6;
+  overflow: hidden;
+}
+.big-intro{
+  width: fit-content;
+  height: fit-content;
+
 }
 
 .herotext-btn-div{
   border-style: solid;
   padding: 3%;
+  grid-column: 1 / 6;
+  grid-row: 5 / 8;
+
 }
 
 .herotext-btn-div h2 p{
   letter-spacing: 1px;
+  height: 80%;
+}
+
+.img{
+  grid-column: 6 / 8;
+  grid-row: 1 / 8;
 }
 
 
@@ -100,5 +117,10 @@
 }
 
 .skills-title{
+
+}
+
+.skills-div{
+  border-style: solid;
 
 }

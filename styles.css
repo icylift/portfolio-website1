@@ -63,7 +63,7 @@
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
-  border-style: solid;
+  border-style: none;
   padding: 2%;
   height: 90vh;
   background-color: #b1b1b2;
@@ -71,7 +71,7 @@
 
 .big-intro-div{
   padding: 3%;
-  border-style: solid;
+  border-style: none;
   font-size: 10vh;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
@@ -88,7 +88,7 @@
 }
 
 .herotext-btn-div{
-  border-style: solid;
+  border-style: none;
   padding: 3%;
   grid-column: 1 / 6;
   grid-row: 5 / 8;
@@ -102,9 +102,31 @@
 
 .CTA-btn{
   margin: 2%;
-  height: 40%;
+  height: 30%;
   width: 25%;
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: solid;
+  padding: 0 56px;
+  line-height: 45px;
+  border-radius: 7px;
+  background-color: #f89e3e;
+  color: rgb(9, 9, 9);
+  font-weight: 400;
+  font-size: 20px;
+  box-shadow: 0 4px 14px 0 rgb(255, 172, 28);
+  transition: background 0.2s ease,color 0.2s ease,box-shadow 0.2s ease;
 }
+
+.CTA-btn:hover{
+  background: #FFAC1C;
+  box-shadow: 0 6px 20px rgb(255, 172, 28),
+    inset 0 0 20px #fff,
+    0 0 50px #fff;
+}
+
+
 
 .img{
   grid-column: 6 / 8;

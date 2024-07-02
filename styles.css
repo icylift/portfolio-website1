@@ -53,7 +53,7 @@
 }
 
 .navLinks li a:hover {
-  color: #1985a1;
+  color: #f89e3e;
 
 }
 /* --------------------------------------------- hero section  ----------------------------------------------- */
@@ -61,8 +61,8 @@
 
 .hero-div{
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
   border-style: none;
   padding: 2%;
   height: 90vh;
@@ -70,15 +70,15 @@
 }
 
 .big-intro-div{
-  padding: 3%;
-  border-style: none;
+  padding: 1%;
+  border-style: solid;
   font-size: 10vh;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 2px;
-  grid-row: 1 / 5;
-  grid-column: 1 / 6;
+  grid-row: 1 / 12;
+  grid-column: 1 / 8;
   overflow: hidden;
 }
 .big-intro{
@@ -91,9 +91,11 @@
   border-style: none;
   padding: 3%;
   grid-column: 1 / 6;
-  grid-row: 5 / 8;
+  grid-row: 6 / 12;
 
 }
+
+
 
 .herotext-btn-div h2 p{
   letter-spacing: 1px;
@@ -148,18 +150,32 @@
 }
 
 .skills-title{
-
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
 }
 
 .skills-div{
   border-style: solid;
+  grid-row: 4 / 6;
 
 }
 
 /* --------------------------------------------- portfolio section  ----------------------------------------------- */
 
+.portfolio{
+  border-style: solid;
+  height: 100vh;
 
+}
 
 
 
 /* --------------------------------------------- footer  ----------------------------------------------- */
+
+
+
+footer{
+  height: 20vh;
+  border-style: solid;
+  
+}

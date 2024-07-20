@@ -10,10 +10,8 @@
 /* --------------------------------  Nav bar CSS ---------------------------------------*/
 
 header{
-
   top: 0;
   position: sticky;
-  position: -webkit-sticky;
 }
 
 .navBar {
@@ -74,11 +72,12 @@ header{
   border-style: none;
   padding: 2%;
   height: 90vh;
-  background-color: #b1b1b2;
+  background-image: linear-gradient(to left,  #07D2FB, #0819B5, #21fcc7);
 }
 
 .big-intro-div{
   padding: 2%;
+  padding-bottom: 1%;
   border-style: none;
   font-size: 12vh;
   font-family: "Bebas Neue", sans-serif;
@@ -121,11 +120,13 @@ header{
   padding: 0 56px;
   line-height: 45px;
   border-radius: 7px;
-  background-color: #f89e3e;
+  background-color: #5af83e;
   color: rgb(9, 9, 9);
   font-weight: 400;
   font-size: 20px;
-  box-shadow: 0 4px 14px 0 rgb(255, 172, 28);
+  -webkit-box-shadow:0px 0px 64px 34px rgba(45,255,196,0.92);
+  -moz-box-shadow: 0px 0px 64px 34px rgba(45,255,196,0.92);
+  box-shadow: 0px 0px 64px 34px rgba(45,255,196,0.92);
   transition: background 0.2s ease,color 0.2s ease,box-shadow 0.2s ease;
 }
 
@@ -259,7 +260,10 @@ header{
 /* --------------------------------------------- contact form   ----------------------------------------------- */
 
 .contact{
+  display: flex;
+  align-items: end;
   padding: 2%;
+  padding-bottom: 10%;
   height: 80vh;
   border-style: solid;
 

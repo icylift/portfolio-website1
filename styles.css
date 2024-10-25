@@ -3,22 +3,19 @@
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  
 }
 
-body{
+body {
   background-color: rgb(22, 28, 28);
 }
 
-
 /* --------------------------------  Nav bar CSS ---------------------------------------*/
 
-header{
+header {
   top: 0;
   position: sticky;
   z-index: 1000;
 }
-
 
 .navBar {
   display: flex;
@@ -29,31 +26,25 @@ header{
   backdrop-filter: blur(40px);
   padding: 30px 10%;
   height: 10vh;
-  
 }
 
-.navBar h1 p{
+.navBar h1 p {
   color: whitesmoke;
   width: 2%;
 }
 
-
-
 .navBarButtonDiv {
   padding: 2%;
 }
-
-
 
 .navLinks li a {
   font-weight: 400;
   font-size: 16px;
   color: #f5f6f8;
   text-decoration: none;
-
 }
 
-.navLogo  {
+.navLogo {
   cursor: pointer;
   width: 5%;
   border-radius: 50%;
@@ -67,7 +58,7 @@ header{
   list-style: none;
 }
 
-.navLinks li  {
+.navLinks li {
   display: inline-block;
   padding: 0 20px;
 }
@@ -78,12 +69,10 @@ header{
 
 .navLinks li a:hover {
   color: #c45bea;
-
 }
 /* --------------------------------------------- hero section  ----------------------------------------------- */
 
-
-.hero-div{
+.hero-div {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
@@ -91,10 +80,10 @@ header{
   padding: 2%;
   height: 100vh;
   color: rgb(90, 158, 236);
-  background-image: radial-gradient(#dadada 0%, #d0eaf4 );
+  background-image: radial-gradient(#dadada 0%, #d0eaf4);
 }
 
-.big-intro-div{
+.big-intro-div {
   padding: 2%;
   border-style: none;
   font-size: 12vh;
@@ -106,28 +95,24 @@ header{
   grid-column: 1 / 5;
   overflow: hidden;
 }
-.big-intro{
+.big-intro {
   width: fit-content;
   height: fit-content;
-
 }
 
-.hero-text-btn-div{
+.hero-text-btn-div {
   border-style: none;
   padding: 2%;
   grid-column: 1 / 4;
   grid-row: 3 / 5;
-
 }
 
-
-
-.hero-text-btn-div h2 p{
+.hero-text-btn-div h2 p {
   letter-spacing: 1px;
   height: 80%;
 }
 
-.CTA-btn{
+.CTA-btn {
   margin-top: 5%;
   height: 30%;
   width: 25%;
@@ -142,84 +127,71 @@ header{
   color: rgb(240, 233, 233);
   font-weight: 400;
   font-size: 20px;
-  -webkit-box-shadow:0px 0px 64px 34px rgba(45,255,196,0.92);
-  -moz-box-shadow: 0px 0px 64px 34px rgba(45,255,196,0.92);
+  -webkit-box-shadow: 0px 0px 64px 34px rgba(45, 255, 196, 0.92);
+  -moz-box-shadow: 0px 0px 64px 34px rgba(45, 255, 196, 0.92);
   box-shadow: 0px 0px 64px 10px rgba(65, 198, 234, 0.793);
-  transition: background 0.2s ease,color 0.2s ease,box-shadow 0.2s ease;
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.CTA-btn:hover{
+.CTA-btn:hover {
   background: #33d9eb;
-  box-shadow: 0 6px 20px rgb(187, 255, 51),
-    inset 0 0 20px #fff,
-    0 0 50px #fff;
+  box-shadow: 0 6px 20px rgb(187, 255, 51), inset 0 0 20px #fff, 0 0 50px #fff;
 }
-
-
-
-
 
 /* --------------------------------------------- skills section  ----------------------------------------------- */
 
-
-.skills{
+.skills {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
-  grid-gap: 3%; 
+  grid-gap: 3%;
   border-style: solid;
   height: 100vh;
   padding: 2%;
-
-
 }
 
-.skills-title{
+.skills-title {
   font-size: 8vh;
   grid-row: 2 / 3;
   grid-column: 6 / 8;
   color: whitesmoke;
 }
 
-
-.skills-div1{
+.skills-div1 {
   grid-column: 2 / 4;
   grid-row: 4 / 7;
 }
 
-.skills-div2{
+.skills-div2 {
   grid-column: 4 / 6;
   grid-row: 4 / 7;
 }
 
-.skills-div3{
+.skills-div3 {
   grid-column: 6 / 8;
   grid-row: 4 / 7;
 }
 
-.skills-div4{
+.skills-div4 {
   grid-column: 8 / 10;
   grid-row: 4 / 7;
-
 }
 
-.skills-div5{
+.skills-div5 {
   grid-column: 10 / 12;
   grid-row: 4 / 7;
-
 }
 
-.skills div i{
+.skills div i {
   height: 50%;
   font-size: 13vh;
 }
 
-.skills div h3{
+.skills div h3 {
   margin: 3px;
-  
 }
 
-.skills div{
+.skills div {
   position: relative;
   width: 190px;
   height: 254px;
@@ -235,7 +207,7 @@ header{
 }
 
 .skills div::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   left: -5px;
@@ -243,7 +215,7 @@ header{
   width: 200px;
   height: 264px;
   border-radius: 10px;
-  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
   z-index: -10;
   pointer-events: none;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -254,7 +226,7 @@ header{
   z-index: -1;
   position: absolute;
   inset: 0;
-  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
   transform: translate3d(0, 0, 0) scale(0.95);
   filter: blur(20px);
 }
@@ -272,18 +244,16 @@ header{
   transform: rotate(-90deg) scaleX(1.34) scaleY(0.77);
 }
 
-
 /* --------------------------------------------- portfolio section  ----------------------------------------------- */
 
-
-.portfolio-projects{
+.portfolio-projects {
   display: grid;
   height: 100vh;
   width: 100vw;
   padding: 2%;
 }
 
-.portfolio{
+.portfolio {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 20%;
@@ -297,15 +267,14 @@ header{
   scroll-behavior: smooth;
 }
 
-.project-title{
+.project-title {
   display: flex;
   justify-content: center;
-  font-size: 8vh;
+  font-size: 7vh;
   color: whitesmoke;
 }
 
-
-.portfolio div{
+.portfolio div {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -314,8 +283,7 @@ header{
   overflow: hidden;
 }
 
-
-.project1{
+.project1 {
   border-style: solid;
   grid-row: 3 / 11;
   grid-column: 1 / 4;
@@ -324,42 +292,41 @@ header{
   padding: 2%;
 }
 
-.project1-img{
+.project1-img {
   border: solid;
   height: 80%;
   width: 40%;
   margin-right: 10%;
 }
 
-.project1-description{
+.project1-description {
   border: solid;
   height: 80%;
   width: 40%;
 }
 
-.project2{
+.project2 {
   border-style: solid;
   grid-row: 3 / 11;
   grid-column: 4 / 7;
   background-color: whitesmoke;
   padding: 2%;
-  
 }
 
-.project2-img{
+.project2-img {
   border: solid;
   height: 80%;
   width: 40%;
   margin-right: 10%;
 }
 
-.project2-description{
+.project2-description {
   border: solid;
   height: 80%;
   width: 40%;
 }
 
-.project3{
+.project3 {
   border-style: solid;
   grid-row: 3 / 11;
   grid-column: 7 / 10;
@@ -367,20 +334,20 @@ header{
   padding: 2%;
 }
 
-.project3-img{
+.project3-img {
   border: solid;
   height: 80%;
   width: 40%;
   margin-right: 10%;
 }
 
-.project3-description{
+.project3-description {
   border: solid;
   height: 80%;
   width: 40%;
 }
 
-.project4{
+.project4 {
   border-style: solid;
   grid-row: 3 / 11;
   grid-column: 10 / 13;
@@ -388,28 +355,36 @@ header{
   padding: 2%;
 }
 
-.project4-img{
+.project4-img {
   border: solid;
   height: 80%;
   width: 40%;
   margin-right: 10%;
 }
 
-.project4-description{
+.project4-description {
   border: solid;
   height: 80%;
   width: 40%;
 }
 
+.left-btn {
+  border-radius: 50%;
+  z-index: 4;
+  border-style: solid;
+  color: whitesmoke;
+}
 
-
-
-
-
+.right-btn {
+  border-radius: 50%;
+  z-index: 4;
+  border-style: solid;
+  color: whitesmoke;
+}
 
 /* --------------------------------------------- About section  ----------------------------------------------- */
 
-.about-me{
+.about-me {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
@@ -417,52 +392,41 @@ header{
   background-color: whitesmoke;
 }
 
-.about-me h2{
+.about-me h2 {
   grid-row: 2 / 3;
   grid-column: 6 / 8;
   font-size: 8vh;
 }
 
-.about-description{
+.about-description {
   display: flex;
   align-items: center;
   padding: 40px;
   border-style: solid;
   grid-column: 2 / 8;
-  grid-row: 4 / 11 ;
+  grid-row: 4 / 11;
   font-size: 20px;
-
 }
 
-.social-links{
+.social-links {
   grid-column: 8 / 12;
   grid-row: 4 / 11;
   border-style: solid;
   display: flex;
   justify-content: center;
   align-items: center;
-  } 
+}
 
-
-.social-media-links{
+.social-media-links {
   margin: 30px;
   font-size: 40px;
 }
 
-
-
-
-
-
-
 /* --------------------------------------------- footer  ----------------------------------------------- */
 
-
-
-footer{
+footer {
   padding: 2%;
   height: 20vh;
   border-style: solid;
-  background-color: whitesmoke  ;
-  
+  background-color: whitesmoke;
 }

@@ -134,8 +134,8 @@ header {
 }
 
 .CTA-btn:hover {
-  background: #33d9eb;
-  box-shadow: 0 6px 20px rgb(187, 255, 51), inset 0 0 20px #fff, 0 0 50px #fff;
+  background: #30d6e9f0;
+  box-shadow: 0 6px 20px rgb(53, 238, 251), inset 0 0 20px #fff, 0 0 50px #fff;
 }
 
 /* --------------------------------------------- skills section  ----------------------------------------------- */
@@ -369,13 +369,19 @@ header {
 }
 
 .left-btn {
+  position: sticky;
+  bottom: 55%;
   border-radius: 50%;
+  top: 0;
   z-index: 4;
   border-style: solid;
   color: whitesmoke;
 }
 
 .right-btn {
+  position: sticky;
+  bottom: 55%;
+  top: 0;
   border-radius: 50%;
   z-index: 4;
   border-style: solid;
@@ -403,18 +409,24 @@ header {
   align-items: center;
   padding: 40px;
   border-style: solid;
+  border-radius: 1%;
   grid-column: 2 / 8;
   grid-row: 4 / 11;
   font-size: 20px;
+  letter-spacing: 2.4;
+  background-color: #edf3f6e7;
 }
 
 .social-links {
   grid-column: 8 / 12;
   grid-row: 4 / 11;
   border-style: solid;
+  border-radius: 1%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #edf3f6e7;
 }
 
 .social-media-links {

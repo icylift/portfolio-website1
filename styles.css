@@ -251,6 +251,7 @@ header {
   height: 100vh;
   width: 100vw;
   padding: 2%;
+  background-color: whitesmoke;
 }
 
 .portfolio {
@@ -264,13 +265,13 @@ header {
   padding-top: 1px;
   padding-left: 3%;
   overflow-x: auto;
-  scroll-behavior: smooth;
 }
 
 .project-title {
   display: flex;
   font-size: 7vh;
-  color: whitesmoke;
+  color: #1a1a1a;
+  justify-content: center;
 }
 
 .portfolio div {
@@ -344,6 +345,7 @@ header {
   grid-template-rows: repeat(12, 1fr);
   height: 100vh;
   background-color: whitesmoke;
+  padding: 2%;
 }
 
 .about-me h2 {
@@ -385,8 +387,61 @@ header {
 /* --------------------------------------------- footer  ----------------------------------------------- */
 
 footer {
-  padding: 2%;
-  height: 20vh;
-  border-style: solid;
-  background-color: whitesmoke;
+  background-color: #1a1a1a;
+  color: #f4f4f4;
+  padding: 20px 0;
+}
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-container .social-links {
+  display: flex;
+  gap: 15px;
+  background-color: #1a1a1a;
+  border: #1a1a1a;
+}
+.footer-container .social-links a {
+  color: #f4f4f4;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+.footer-container .social-links a:hover {
+  color: #40c9ff;
+}
+.footer-container .footer-text {
+  text-align: center;
+  font-size: 14px;
+}
+.footer-container .footer-text p {
+  margin: 5px 0;
+}
+.footer-container .footer-nav {
+  display: flex;
+  gap: 15px;
+}
+.footer-container .footer-nav a {
+  color: #f4f4f4;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+.footer-container .footer-nav a:hover {
+  color: #40c9ff;
+}
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-container .social-links {
+    justify-content: center;
+    margin-bottom: 15px;
+  }
 }

@@ -258,10 +258,10 @@ header {
   grid-auto-flow: row;
   grid-auto-columns: 6.5%;
   border-style: hidden;
-  height: 70vh;
+  height: 80vh;
   grid-gap: 2%;
   padding: 2%;
-  padding-top: 2px;
+  padding-top: 1px;
   padding-left: 3%;
   overflow-x: auto;
   scroll-behavior: smooth;
@@ -297,7 +297,6 @@ header {
   border: solid;
   height: 80%;
   width: 90%;
-  margin-right: 10%;
 }
 
 .project-description {
@@ -312,6 +311,7 @@ header {
   grid-row: 3 / 11;
   grid-column: 4 / 7;
   justify-content: center;
+  align-items: center;
   background-color: whitesmoke;
   padding: 2%;
 }
@@ -321,6 +321,7 @@ header {
   grid-row: 3 / 11;
   grid-column: 7 / 10;
   justify-content: center;
+  align-items: center;
   background-color: whitesmoke;
   padding: 2%;
 }
@@ -330,6 +331,7 @@ header {
   grid-row: 3 / 11;
   grid-column: 10 / 13;
   justify-content: center;
+  align-items: center;
   background-color: whitesmoke;
   padding: 2%;
 }

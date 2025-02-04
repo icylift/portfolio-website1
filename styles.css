@@ -148,13 +148,14 @@ header {
   border-style: solid;
   height: 100vh;
   padding: 2%;
+  background-color: whitesmoke;
+  background-image: radial-gradient(#dadada 0%, #d0eaf4);
 }
 
 .skills-title {
   font-size: 8vh;
   grid-row: 2 / 3;
   grid-column: 6 / 8;
-  color: whitesmoke;
 }
 
 .skills-div1 {
@@ -252,6 +253,7 @@ header {
   width: 100vw;
   padding: 2%;
   background-color: whitesmoke;
+  background-image: radial-gradient(#dadada 0%, #d0eaf4);
 }
 
 .portfolio {
@@ -345,6 +347,8 @@ header {
   grid-template-rows: repeat(12, 1fr);
   height: 100vh;
   background-color: whitesmoke;
+  background-image: radial-gradient(#dadada 0%, #d0eaf4);
+
   padding: 2%;
 }
 

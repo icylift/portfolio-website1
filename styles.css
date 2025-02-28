@@ -29,7 +29,7 @@ header {
 }
 
 .navBar h1 p {
-  color: #a8a8a8;
+  color: #494747;
   width: 2%;
 }
 
@@ -288,7 +288,7 @@ header {
 
 .project1 {
   border-style: solid;
-  grid-row: 3 / 11;
+  grid-row: 3 / 9;
   grid-column: 1 / 4;
   justify-content: center;
   align-items: center;
@@ -300,20 +300,28 @@ header {
 .project-img {
   margin: 3px;
   border: solid;
-  height: 80%;
-  width: 90%;
+  height: 70%;
+  width: 100%;
+}
+
+.project-img img {
+  object-fit: cover;
+  padding: 0%;
 }
 
 .project-description {
   margin: 3px;
   border: solid;
-  height: 80%;
-  width: 90%;
+  height: 30%;
+  width: 100%;
+  word-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  color: #333;
 }
 
 .project2 {
   border-style: solid;
-  grid-row: 3 / 11;
+  grid-row: 3 / 9;
   grid-column: 4 / 7;
   justify-content: center;
   align-items: center;
@@ -323,7 +331,7 @@ header {
 
 .project3 {
   border-style: solid;
-  grid-row: 3 / 11;
+  grid-row: 3 / 9;
   grid-column: 7 / 10;
   justify-content: center;
   align-items: center;
@@ -333,7 +341,7 @@ header {
 
 .project4 {
   border-style: solid;
-  grid-row: 3 / 11;
+  grid-row: 3 / 9;
   grid-column: 10 / 13;
   justify-content: center;
   align-items: center;

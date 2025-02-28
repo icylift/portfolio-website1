@@ -1,3 +1,13 @@
+/*
+  Color pallet
+  Licorice -- #1c110a --
+  Feldgrau  -- #586a6a --
+  Carmel -- #cb793a --
+  Old rose -- #cd8b76 --
+
+
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +16,7 @@
 }
 
 body {
-  background-color: rgb(22, 28, 28);
+  background-color: #586a6a;
 }
 
 /* --------------------------------  Nav bar CSS ---------------------------------------*/
@@ -29,7 +39,7 @@ header {
 }
 
 .navBar h1 p {
-  color: #494747;
+  color: #1c110a;
   width: 2%;
 }
 
@@ -40,7 +50,7 @@ header {
 .navLinks li a {
   font-weight: 400;
   font-size: 16px;
-  color: #a8a8a8;
+  color: #1c110a;
   text-decoration: none;
 }
 
@@ -68,7 +78,7 @@ header {
 }
 
 .navLinks li a:hover {
-  color: rgb(90, 158, 236);
+  color: #cb793a;
 }
 /* --------------------------------------------- hero section  ----------------------------------------------- */
 
@@ -79,7 +89,7 @@ header {
   border-style: none;
   padding: 2%;
   height: 100vh;
-  color: rgb(90, 158, 236);
+  color: #1c110a;
   background-image: radial-gradient(#dadada 0%, #d0eaf4);
 }
 
@@ -299,7 +309,7 @@ header {
 
 .project-img {
   margin: 3px;
-  border: solid;
+  /*border: solid;*/
   height: 70%;
   width: 100%;
 }
@@ -378,7 +388,10 @@ header {
   grid-row: 4 / 11;
   font-size: 20px;
   letter-spacing: 2.4;
-  background-color: #edf3f6e7;
+  background-color: #cd8b76;
+  word-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  color: #333;
 }
 
 .social-links {
@@ -390,7 +403,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #edf3f6e7;
+  background-color: #cd8b76;
 }
 
 .social-media-links {

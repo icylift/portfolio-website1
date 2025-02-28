@@ -29,7 +29,7 @@ header {
 }
 
 .navBar h1 p {
-  color: whitesmoke;
+  color: #a8a8a8;
   width: 2%;
 }
 
@@ -40,7 +40,7 @@ header {
 .navLinks li a {
   font-weight: 400;
   font-size: 16px;
-  color: #f5f6f8;
+  color: #a8a8a8;
   text-decoration: none;
 }
 
@@ -68,7 +68,7 @@ header {
 }
 
 .navLinks li a:hover {
-  color: #c45bea;
+  color: rgb(90, 158, 236);
 }
 /* --------------------------------------------- hero section  ----------------------------------------------- */
 

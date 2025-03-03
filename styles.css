@@ -137,15 +137,15 @@ header {
   color: rgb(240, 233, 233);
   font-weight: 400;
   font-size: 20px;
-  -webkit-box-shadow: 0px 0px 64px 34px rgba(45, 255, 196, 0.92);
-  -moz-box-shadow: 0px 0px 64px 34px rgba(45, 255, 196, 0.92);
-  box-shadow: 0px 0px 64px 10px rgba(65, 198, 234, 0.793);
+  -webkit-box-shadow: 0px 0px 64px 34px rgba(229, 105, 48, 0.92);
+  -moz-box-shadow: 0px 0px 64px 34px rgba(255, 209, 45, 0.92);
+  box-shadow: 0px 0px 64px 10px rgba(195, 166, 51, 0.793);
   transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .CTA-btn:hover {
-  background: #30d6e9f0;
-  box-shadow: 0 6px 20px rgb(53, 238, 251), inset 0 0 20px #fff, 0 0 50px #fff;
+  background: #d67d62;
+  box-shadow: 0 6px 20px #ea9278, inset 0 0 20px #fff, 0 0 50px #fff;
 }
 
 /* --------------------------------------------- skills section  ----------------------------------------------- */

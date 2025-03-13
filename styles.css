@@ -152,7 +152,7 @@ header {
 
 .skills {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(14, 1fr);
   grid-template-rows: repeat(12, 1fr);
   grid-gap: 3%;
   border-style: solid;
@@ -165,7 +165,7 @@ header {
 .skills-title {
   font-size: 8vh;
   grid-row: 2 / 3;
-  grid-column: 6 / 8;
+  grid-column: 7 / 9;
 }
 
 .skills-div1 {
@@ -190,6 +190,11 @@ header {
 
 .skills-div5 {
   grid-column: 10 / 12;
+  grid-row: 4 / 7;
+}
+
+.skills-div6 {
+  grid-column: 12 / 14;
   grid-row: 4 / 7;
 }
 
